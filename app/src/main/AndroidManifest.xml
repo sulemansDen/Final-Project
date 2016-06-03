@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.suleman.finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Appliances_Services"></activity>
+        <activity android:name=".Carpentry_Services"></activity>
+        <activity android:name=".Cleaning_Services"></activity>
+        <activity android:name=".ComputerRepairing_Services"></activity>
+        <activity android:name=".Electrical_Services"></activity>
+        <activity android:name=".Laundry_Services"></activity>
+        <activity android:name=".Painting_Services"></activity>
+        <activity android:name=".Plumbing_Services"></activity>
+    </application>
+
+</manifest>

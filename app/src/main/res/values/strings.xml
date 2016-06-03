@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FINAL PROJECT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="color_names">
+        <item>APPLIANCES</item>
+        <item>CARPENTRY</item>
+        <item>CLEANING</item>
+        <item>COMPUTER REPAIRING</item>
+        <item>ELECTRICAL</item>
+        <item>LAUNDRY</item>
+        <item>PAINTING</item>
+        <item>PLUMBING</item>
+    </string-array>
+</resources>
