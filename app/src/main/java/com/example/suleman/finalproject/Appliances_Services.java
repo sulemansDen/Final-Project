@@ -54,7 +54,7 @@ public class Appliances_Services extends AppCompatActivity{
     }
 
     private void initializeAdapter(){
-        RVAdapter adapter = new RVAdapter(persons);
+        RVAdapter_Appliances adapter = new RVAdapter_Appliances(persons);
         rv.setAdapter(adapter);
     }
     @Override

@@ -16,7 +16,7 @@ import com.daimajia.androidanimations.library.YoYo;
 
 import java.util.List;
 
-public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder>  {
+public class RVAdapter_Appliances extends RecyclerView.Adapter<RVAdapter_Appliances.PersonViewHolder>  {
 
     public static class PersonViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
@@ -42,7 +42,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
 
             if(position==0)
             {
-                Intent i = new Intent(context,Appliances_Services.class);
+                Intent i = new Intent(context,AC_Installation.class);
                 context.startActivity(i);
             }
         }
@@ -50,7 +50,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder> 
 
     List<Card_Content> contents;
 
-    RVAdapter(List<Card_Content> contents){
+    RVAdapter_Appliances(List<Card_Content> contents){
         this.contents = contents;
     }
 

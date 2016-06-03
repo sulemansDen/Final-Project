@@ -18,14 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Appliances_Services"></activity>
-        <activity android:name=".Carpentry_Services"></activity>
-        <activity android:name=".Cleaning_Services"></activity>
-        <activity android:name=".ComputerRepairing_Services"></activity>
-        <activity android:name=".Electrical_Services"></activity>
-        <activity android:name=".Laundry_Services"></activity>
-        <activity android:name=".Painting_Services"></activity>
-        <activity android:name=".Plumbing_Services"></activity>
+        <activity android:name=".Appliances_Services" />
+        <activity android:name=".Carpentry_Services" />
+        <activity android:name=".Cleaning_Services" />
+        <activity android:name=".ComputerRepairing_Services" />
+        <activity android:name=".Electrical_Services" />
+        <activity android:name=".Laundry_Services" />
+        <activity android:name=".Painting_Services" />
+        <activity android:name=".Plumbing_Services" />
+        <activity android:name=".AC_Installation"></activity>
     </application>
 
 </manifest>
