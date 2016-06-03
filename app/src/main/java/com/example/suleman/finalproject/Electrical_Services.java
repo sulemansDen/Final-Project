@@ -47,7 +47,7 @@ public class Electrical_Services extends AppCompatActivity {
     }
 
     private void initializeAdapter(){
-        RVAdapter adapter = new RVAdapter(persons);
+        RVAdapter_Electrical adapter = new RVAdapter_Electrical(persons);
         rv.setAdapter(adapter);
     }
     @Override

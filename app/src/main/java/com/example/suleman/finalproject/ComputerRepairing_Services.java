@@ -50,7 +50,7 @@ public class ComputerRepairing_Services extends AppCompatActivity{
     }
 
     private void initializeAdapter(){
-        RVAdapter adapter = new RVAdapter(persons);
+        RVAdapter_ComputerRepairing adapter = new RVAdapter_ComputerRepairing(persons);
         rv.setAdapter(adapter);
     }
     @Override

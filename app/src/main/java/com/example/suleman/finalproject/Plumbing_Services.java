@@ -47,7 +47,7 @@ public class Plumbing_Services extends AppCompatActivity{
     }
 
     private void initializeAdapter(){
-        RVAdapter adapter = new RVAdapter(persons);
+        RVAdapter_Plumbing adapter = new RVAdapter_Plumbing(persons);
         rv.setAdapter(adapter);
     }
     @Override

@@ -44,7 +44,7 @@ public class Laundry_Services extends AppCompatActivity {
     }
 
     private void initializeAdapter(){
-        RVAdapter adapter = new RVAdapter(persons);
+        RVAdapter_Laundry adapter = new RVAdapter_Laundry(persons);
         rv.setAdapter(adapter);
     }
     @Override

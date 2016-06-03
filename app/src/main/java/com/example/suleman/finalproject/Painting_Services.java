@@ -46,7 +46,7 @@ public class Painting_Services extends AppCompatActivity {
     }
 
     private void initializeAdapter(){
-        RVAdapter adapter = new RVAdapter(persons);
+        RVAdapter_Painting adapter = new RVAdapter_Painting(persons);
         rv.setAdapter(adapter);
     }
     @Override
