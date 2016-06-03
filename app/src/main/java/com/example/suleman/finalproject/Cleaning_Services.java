@@ -47,7 +47,7 @@ public class Cleaning_Services extends AppCompatActivity{
     }
 
     private void initializeAdapter(){
-        RVAdapter adapter = new RVAdapter(persons);
+        RVAdapter_Cleaning adapter = new RVAdapter_Cleaning(persons);
         rv.setAdapter(adapter);
     }
     @Override
