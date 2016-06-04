@@ -27,7 +27,8 @@
         <activity android:name=".Painting_Services" />
         <activity android:name=".Plumbing_Services" />
         <activity android:name=".AC_Installation" />
-        <activity android:name=".AC_UnInstallation"></activity>
+        <activity android:name=".AC_UnInstallation" />
+        <activity android:name=".AC_Servicing"></activity>
     </application>
 
 </manifest>
