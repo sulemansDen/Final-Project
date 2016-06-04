@@ -4,11 +4,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class AC_Installation extends AppCompatActivity {
 TextView disp;
-    int total = 0;
+    int total = 0,countWindow=0,countSplit=0;
+    TextView window;
+    TextView split;
+    Button bsplit,bwindow;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,11 +22,51 @@ TextView disp;
         getSupportActionBar().setTitle("AC Installation");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         disp = (TextView)findViewById(R.id.total);
+        window = (TextView)findViewById(R.id.windowAC);
+        split = (TextView)findViewById(R.id.splitAC);
+        bwindow = (Button)findViewById(R.id.minus);
+        bsplit = (Button)findViewById(R.id.minusSplit);
     }
 public void result(View v)
 {
-        total+=500;
-        disp.setText("Total : Rs "+total);
+    if(v.getId() == R.id.add) {
+        total += 690;
+        countWindow++;
+        disp.setText("Total : Rs " + total);
+        window.setText(countWindow + " Window AC");
+    }
+    else  if(v.getId() == R.id.minus) {
+        if(countWindow==0)
+        {
+        //    countWindow=0;
+        }
+        else
+        {
+            total -= 690;
+            countWindow--;
+            disp.setText("Total : Rs " + total);
+            window.setText(countWindow + " Window AC");
+        }
+    }
+    else  if(v.getId() == R.id.addSplit) {
+        total += 1850;
+        countSplit++;
+        disp.setText("Total : Rs " + total);
+        split.setText(countSplit + " Split AC");
+    }
+    else  if(v.getId() == R.id.minusSplit) {
+        if(countSplit==0)
+        {
+            //countSplit=0;
+        }
+        else
+        {
+            total -= 1850;
+            countSplit--;
+            disp.setText("Total : Rs " + total);
+            split.setText(countSplit + " Split AC");
+        }
+    }
 
 }
 

@@ -70,6 +70,7 @@
             android:layout_height="wrap_content"
             android:textColor="#000"
             android:layout_weight="1"
+            android:id="@+id/windowAC"
             android:textAlignment="center"
             android:text="0 Window AC"/>
 
@@ -105,6 +106,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textColor="#000"
+            android:id="@+id/splitAC"
             android:layout_weight="1"
             android:textAlignment="center"
             android:text="0 Split AC"/>
