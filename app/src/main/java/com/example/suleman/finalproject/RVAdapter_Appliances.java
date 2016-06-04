@@ -45,6 +45,11 @@ public class RVAdapter_Appliances extends RecyclerView.Adapter<RVAdapter_Applian
                 Intent i = new Intent(context,AC_Installation.class);
                 context.startActivity(i);
             }
+            if(position==1)
+            {
+                Intent i = new Intent(context,AC_UnInstallation.class);
+                context.startActivity(i);
+            }
         }
     }
 

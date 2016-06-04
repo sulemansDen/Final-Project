@@ -26,7 +26,8 @@
         <activity android:name=".Laundry_Services" />
         <activity android:name=".Painting_Services" />
         <activity android:name=".Plumbing_Services" />
-        <activity android:name=".AC_Installation"></activity>
+        <activity android:name=".AC_Installation" />
+        <activity android:name=".AC_UnInstallation"></activity>
     </application>
 
 </manifest>
