@@ -47,8 +47,77 @@
         android:textSize="13sp"
         android:textAlignment="center" />
 
--
 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="min"
+            android:id="@+id/minus"
+            android:textColor="#808080"
+            android:background="@drawable/roundleft"
+            android:onClick="result">
+        </Button>
 
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="0 Window AC"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Add"
+            android:onClick="result"
+            android:textColor="#808080"
+            android:id="@+id/add"
+            android:background="@drawable/round">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#808080"
+            android:text="min"
+            android:id="@+id/minusSplit"
+            android:background="@drawable/roundleft"
+            android:onClick="result">
+        </Button>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="0 Split AC"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Add"
+            android:onClick="result"
+            android:textColor="#808080"
+            android:id="@+id/addSplit"
+            android:background="@drawable/round">
+        </Button>
+    </LinearLayout>
 
 </LinearLayout>
