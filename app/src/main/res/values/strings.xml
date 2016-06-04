@@ -18,4 +18,12 @@
         <item>PAINTING</item>
         <item>PLUMBING</item>
     </string-array>
+    <string name="feat1">\u2022 Window AC at Rs : 690/AC </string>
+
+    <string name="feat2">\u2022 Split AC at Rs : 1850/AC </string>
+
+    <string name="feat3">\u2022 Includes labour charges only</string>
+
+    <string name="feat4">\u2022 Any parts that requires replacement will be extra</string>
+    <string name="feat5">\u2022 Minimum vising Charges are Rs. 199 </string>
 </resources>

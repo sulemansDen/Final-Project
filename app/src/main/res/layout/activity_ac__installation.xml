@@ -122,4 +122,73 @@
         </Button>
     </LinearLayout>
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Whats Included?"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/feat1"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/feat2"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/feat3"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:lineSpacingExtra="3sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/feat4"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:lineSpacingExtra="3sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/feat5"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:onClick="submit"
+        android:background="#008e00"
+        />
+
+</LinearLayout>
+
 </LinearLayout>
