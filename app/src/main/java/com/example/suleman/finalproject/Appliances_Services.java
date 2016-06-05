@@ -49,8 +49,6 @@ public class Appliances_Services extends AppCompatActivity{
         persons.add(new Card_Content("Oven Repair", "Let's Get Those Healthy Meal Cooking Again", R.drawable.gray));
         persons.add(new Card_Content("Fridge Repair", "Services For Your Fridge", R.drawable.gray));
         persons.add(new Card_Content("Fridge Gas Charging", "Fridge Losts Its Cool! We Will Pump It Up", R.drawable.gray));
-        persons.add(new Card_Content("Fridge Gas Charging", "Fridge Losts Its Cool! We Will Pump It Up", R.drawable.gray));
-
     }
 
     private void initializeAdapter(){

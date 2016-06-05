@@ -38,7 +38,7 @@ public class RVAdapter_Appliances extends RecyclerView.Adapter<RVAdapter_Applian
         @Override
         public void onClick(View v) {
             int position = getAdapterPosition();
-            Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
+            //Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
 
             if(position==0)
             {
@@ -68,6 +68,11 @@ public class RVAdapter_Appliances extends RecyclerView.Adapter<RVAdapter_Applian
             if(position==5)
             {
                 Intent i = new Intent(context,Fridge_Repair.class);
+                context.startActivity(i);
+            }
+            if(position==6)
+            {
+                Intent i = new Intent(context,Fridge_Gas_Charging.class);
                 context.startActivity(i);
             }
         }
