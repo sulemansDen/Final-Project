@@ -30,9 +30,10 @@
     <string name="feat4">\u2022 Any parts that requires replacement will be extra</string>
     <string name="feat5">\u2022 Minimum vising Charges are Rs. 199 </string>
 
-    <string name="feat9">\u2022 Fully-Automatic at Rs : 450/AC </string>
-    <string name="feat10">\u2022 Semi-Automatic at Rs: 450/AC </string>
-    <string name="feat11">\u2022 Front-Loading at Rs : 550/AC </string>
+    <string name="feat9">\u2022 Fully-Automatic at Rs : 450/Machine </string>
+    <string name="feat10">\u2022 Semi-Automatic at Rs: 450/Machine </string>
+    <string name="feat11">\u2022 Front-Loading at Rs : 550/Machine </string>
 
+    <string name="feat12">\u2022 Convection/Grill at Rs : 450/Convection/Grill </string>
 
 </resources>

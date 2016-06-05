@@ -60,6 +60,11 @@ public class RVAdapter_Appliances extends RecyclerView.Adapter<RVAdapter_Applian
                 Intent i = new Intent(context,Washing_Machine_Repair.class);
                 context.startActivity(i);
             }
+            if(position==4)
+            {
+                Intent i = new Intent(context,Oven_Repair.class);
+                context.startActivity(i);
+            }
         }
     }
 

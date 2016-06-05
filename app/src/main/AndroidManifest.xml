@@ -29,7 +29,8 @@
         <activity android:name=".AC_Installation" />
         <activity android:name=".AC_UnInstallation" />
         <activity android:name=".AC_Servicing" />
-        <activity android:name=".Washing_Machine_Repair"></activity>
+        <activity android:name=".Washing_Machine_Repair" />
+        <activity android:name=".Oven_Repair"></activity>
     </application>
 
 </manifest>
