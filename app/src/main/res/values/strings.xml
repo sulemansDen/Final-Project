@@ -36,4 +36,8 @@
 
     <string name="feat12">\u2022 Convection/Grill at Rs : 450/Convection/Grill </string>
 
+    <string name="feat13">\u2022 Direct Cool at Rs : 475/Fridge </string>
+    <string name="feat14">\u2022 Frost Free at Rs : 475/Fridge </string>
+    <string name="feat15">\u2022 General Service at Rs : 475/Fridge </string>
+
 </resources>
