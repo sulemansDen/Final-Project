@@ -32,7 +32,8 @@
         <activity android:name=".Washing_Machine_Repair" />
         <activity android:name=".Oven_Repair" />
         <activity android:name=".Fridge_Repair" />
-        <activity android:name=".Fridge_Gas_Charging"></activity>
+        <activity android:name=".Fridge_Gas_Charging" />
+        <activity android:name=".DeepHomeCleaning"></activity>
     </application>
 
 </manifest>
