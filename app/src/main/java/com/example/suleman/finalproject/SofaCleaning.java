@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class SofaCleaning extends AppCompatActivity {
     TextView disp;
-    int total = 0, countBhk = 0, countWater = 0;
+    int total = 0, countBhk = 0;
     TextView bhk;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -64,6 +64,11 @@ public class RVAdapter_Cleaning extends RecyclerView.Adapter<RVAdapter_Cleaning.
                 Intent i = new Intent(context,BathroomCleaning.class);
                 context.startActivity(i);
             }
+            else if(position==4)
+            {
+                Intent i = new Intent(context,KitchenCleaning.class);
+                context.startActivity(i);
+            }
         }
     }
 
