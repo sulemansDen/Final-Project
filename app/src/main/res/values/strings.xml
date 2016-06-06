@@ -50,4 +50,8 @@
     <string name="feat21">\u2022 Includes cobweb cleaning,highrise dust cleaning </string>
     <string name="feat22">\u2022 Water Tank at Rs : 1.5/Ltr </string>
 
+    <string name="feat23">\u2022 Doesn\'t include : Deep oil stain removal</string>
+    <string name="feat24">\u2022 Doesn\'t include : Salt Water stain removal</string>
+    <string name="feat25"> \u2022 Doesn\'t include : Window Glass Stain Removal</string>
+
 </resources>

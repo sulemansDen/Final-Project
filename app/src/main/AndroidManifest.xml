@@ -33,7 +33,8 @@
         <activity android:name=".Oven_Repair" />
         <activity android:name=".Fridge_Repair" />
         <activity android:name=".Fridge_Gas_Charging" />
-        <activity android:name=".DeepHomeCleaning"></activity>
+        <activity android:name=".DeepHomeCleaning" />
+        <activity android:name=".ExpressCleaning"></activity>
     </application>
 
 </manifest>

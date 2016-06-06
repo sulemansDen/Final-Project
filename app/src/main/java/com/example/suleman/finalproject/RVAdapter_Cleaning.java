@@ -44,7 +44,12 @@ public class RVAdapter_Cleaning extends RecyclerView.Adapter<RVAdapter_Cleaning.
             int position = getAdapterPosition();
             Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
 
-            if(position==1)
+            if(position==0)
+            {
+                Intent i = new Intent(context,ExpressCleaning.class);
+                context.startActivity(i);
+            }
+            else if(position==1)
             {
                 Intent i = new Intent(context,DeepHomeCleaning.class);
                 context.startActivity(i);
