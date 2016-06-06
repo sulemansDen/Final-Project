@@ -35,7 +35,8 @@
         <activity android:name=".Fridge_Gas_Charging" />
         <activity android:name=".DeepHomeCleaning" />
         <activity android:name=".ExpressCleaning" />
-        <activity android:name=".SofaCleaning"></activity>
+        <activity android:name=".SofaCleaning" />
+        <activity android:name=".BathroomCleaning"></activity>
     </application>
 
 </manifest>
