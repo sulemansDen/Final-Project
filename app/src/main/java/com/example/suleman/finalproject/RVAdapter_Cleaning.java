@@ -42,7 +42,7 @@ public class RVAdapter_Cleaning extends RecyclerView.Adapter<RVAdapter_Cleaning.
         @Override
         public void onClick(View v) {
             int position = getAdapterPosition();
-            Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
+            //Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
 
             if(position==0)
             {
