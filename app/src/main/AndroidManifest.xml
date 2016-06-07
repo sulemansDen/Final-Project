@@ -42,7 +42,8 @@
         <activity android:name=".LightsAndFittings" />
         <activity android:name=".Fans" />
         <activity android:name=".PlugnSwitch" />
-        <activity android:name=".TvnEntertainment"></activity>
+        <activity android:name=".TvnEntertainment" />
+        <activity android:name=".Ups"></activity>
     </application>
 
 </manifest>
