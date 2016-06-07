@@ -72,6 +72,8 @@
     <string name="feat37">\u2022 Charges are exclusive of materials. Free material procurement
     from stores within 2kms, above which a cost of Rs.25 is applicable</string>
 
+    <string name="feat38">\u2022 Materials when produced by Helpr will be charged at actuals and
+    bill will be provided from the hardware store</string>
     <string name="feat39">\u2022 Note : Please make provision for any ladder, stools
     required as it will not be carried by the helper.</string>
 

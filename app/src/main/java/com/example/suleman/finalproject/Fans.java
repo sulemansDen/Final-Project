@@ -70,7 +70,7 @@ public class Fans extends AppCompatActivity {
                 countCeiling--;
                 total -= 75;
                 disp.setText("Total : Rs " + total);
-                ceiling.setText(countRepair + " Ceiling Fan Installation");
+                ceiling.setText(countCeiling + " Ceiling Fan Installation");
             } else if (countCeiling == 4) {
                 countCeiling--;
                 total -= 50;

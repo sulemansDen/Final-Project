@@ -40,7 +40,8 @@
         <activity android:name=".KitchenCleaning" />
         <activity android:name=".MoveInCleaning" />
         <activity android:name=".LightsAndFittings" />
-        <activity android:name=".Fans"></activity>
+        <activity android:name=".Fans" />
+        <activity android:name=".PlugnSwitch"></activity>
     </application>
 
 </manifest>
