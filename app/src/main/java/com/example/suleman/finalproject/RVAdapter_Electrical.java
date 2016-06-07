@@ -46,7 +46,7 @@ public class RVAdapter_Electrical extends RecyclerView.Adapter<RVAdapter_Electri
 
             if(position==0)
             {
-                Intent i = new Intent(context,Electrical_Services.class);
+                Intent i = new Intent(context,LightsAndFittings.class);
                 context.startActivity(i);
             }
         }

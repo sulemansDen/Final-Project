@@ -38,7 +38,8 @@
         <activity android:name=".SofaCleaning" />
         <activity android:name=".BathroomCleaning" />
         <activity android:name=".KitchenCleaning" />
-        <activity android:name=".MoveInCleaning"></activity>
+        <activity android:name=".MoveInCleaning" />
+        <activity android:name=".LightsAndFittings"></activity>
     </application>
 
 </manifest>
