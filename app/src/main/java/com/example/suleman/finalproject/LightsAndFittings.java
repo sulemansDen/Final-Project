@@ -218,7 +218,7 @@ public class LightsAndFittings extends AppCompatActivity {
 
             } else {
                 countChandlier--;
-                total -= 500;x
+                total -= 500;
                 disp.setText("Total : Rs " + total);
                 chandlier.setText(countChandlier + " Chandlier");
             }
