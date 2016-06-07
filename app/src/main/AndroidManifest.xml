@@ -41,7 +41,8 @@
         <activity android:name=".MoveInCleaning" />
         <activity android:name=".LightsAndFittings" />
         <activity android:name=".Fans" />
-        <activity android:name=".PlugnSwitch"></activity>
+        <activity android:name=".PlugnSwitch" />
+        <activity android:name=".TvnEntertainment"></activity>
     </application>
 
 </manifest>
