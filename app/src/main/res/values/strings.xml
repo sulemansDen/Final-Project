@@ -77,5 +77,11 @@
     <string name="feat39">\u2022 Note : Please make provision for any ladder, stools
     required as it will not be carried by the helper.</string>
 
+    <string name="feat40">\u2022 Rs.350 for 2 hours and Rs.50 will be charged for every
+    additional 30 minutes</string>
 
+    <string name="feat41">\u2022 Charges includes labour cost and will be charged based on total hour spent</string>
+
+<string name="feat42">\u2022 A minimum charges of Rs.100 will be applicable
+    if the work is postponed or cancelled</string>
 </resources>

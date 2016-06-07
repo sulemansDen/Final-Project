@@ -42,7 +42,7 @@ public class RVAdapter_Electrical extends RecyclerView.Adapter<RVAdapter_Electri
         @Override
         public void onClick(View v) {
             int position = getAdapterPosition();
-            Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
+            //Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
 
             if(position==0)
             {
@@ -67,6 +67,11 @@ public class RVAdapter_Electrical extends RecyclerView.Adapter<RVAdapter_Electri
             if(position==4)
             {
                 Intent i = new Intent(context,Ups.class);
+                context.startActivity(i);
+            }
+            if(position==5)
+            {
+                Intent i = new Intent(context,GeneralElectrService.class);
                 context.startActivity(i);
             }
         }
