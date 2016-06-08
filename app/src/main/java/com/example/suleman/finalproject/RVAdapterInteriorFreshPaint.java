@@ -46,7 +46,17 @@ public class RVAdapterInteriorFreshPaint extends RecyclerView.Adapter<RVAdapterI
 
             if(position==0)
             {
-                Intent i = new Intent(context,Painting_Services.class);
+                Intent i = new Intent(context,EconomyFeatures.class);
+                context.startActivity(i);
+            }
+            if(position==1)
+            {
+                Intent i = new Intent(context,PrimiumFeatures.class);
+                context.startActivity(i);
+            }
+            if(position==2)
+            {
+                Intent i = new Intent(context,SuperPremiumFeatures.class);
                 context.startActivity(i);
             }
         }

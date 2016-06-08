@@ -82,6 +82,20 @@
 
     <string name="feat41">\u2022 Charges includes labour cost and will be charged based on total hour spent</string>
 
-<string name="feat42">\u2022 A minimum charges of Rs.100 will be applicable
+    <string name="feat42">\u2022 A minimum charges of Rs.100 will be applicable
     if the work is postponed or cancelled</string>
+
+    <string name="feat43">\u2022 Rs.20 to Rs.22.50 per sq.ft. using Dulux paints</string>
+
+    <string name="feat44">\u2022 Fresh Painting: Sanding of walls --> First Coat Primer Application
+    --> Putty Application --> Second Coat Primer Application --> Top Coat Application</string>
+
+    <string name="feat45">\u2022 One Year performance warranty &amp; Periodic Site Inspection</string>
+
+    <string name="feat46">\u2022 Rs.21 to Rs.27 per sq.ft. using Dulux paints</string>
+
+    <string name="feat47">\u2022 Rs.24.50 to Rs.35 per sq.ft. using Dulux paints</string>
+
+
+
 </resources>

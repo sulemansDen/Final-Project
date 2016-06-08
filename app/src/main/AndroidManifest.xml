@@ -45,7 +45,13 @@
         <activity android:name=".TvnEntertainment" />
         <activity android:name=".Ups" />
         <activity android:name=".GeneralElectrService" />
-        <activity android:name=".InteriorFreshPaint"></activity>
+        <activity android:name=".InteriorFreshPaint" />
+        <activity android:name=".EconomyFeatures"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity android:name=".PrimiumFeatures"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".SuperPremiumFeatures"
+            android:theme="@style/AppTheme.CustomTheme"/>
     </application>
 
 </manifest>
