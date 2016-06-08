@@ -71,6 +71,11 @@
             android:theme="@style/AppTheme.CustomTheme"/>
         <activity android:name=".SuperPremiumReExt"
             android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".WoodPolishing"/>'
+        <activity android:name=".InteriorWoodPolish"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".ExteriorWoodPolish"
+            android:theme="@style/AppTheme.CustomTheme"/>
     </application>
 
 </manifest>
