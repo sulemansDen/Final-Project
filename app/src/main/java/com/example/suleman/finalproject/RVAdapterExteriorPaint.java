@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
@@ -17,10 +16,11 @@ import com.daimajia.androidanimations.library.YoYo;
 import java.util.List;
 
 /**
- * Created by suleman on 3/6/16.
+ * Created by suleman on 8/6/16.
  */
 
-public class RVAdapter_Painting extends RecyclerView.Adapter<RVAdapter_Painting.PersonViewHolder>  {
+
+public class RVAdapterExteriorPaint extends RecyclerView.Adapter<RVAdapterExteriorPaint.PersonViewHolder>  {
 
     public static class PersonViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
@@ -42,21 +42,21 @@ public class RVAdapter_Painting extends RecyclerView.Adapter<RVAdapter_Painting.
         @Override
         public void onClick(View v) {
             int position = getAdapterPosition();
-            Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
+            //Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
 
             if(position==0)
             {
-                Intent i = new Intent(context,InteriorFreshPaint.class);
+                Intent i = new Intent(context,ExteriorEconomy.class);
                 context.startActivity(i);
             }
             if(position==1)
             {
-                Intent i = new Intent(context,InteriorRePainting.class);
+                Intent i = new Intent(context,ExteriorPremium.class);
                 context.startActivity(i);
             }
             if(position==2)
             {
-                Intent i = new Intent(context,ExteriorFreshPaint.class);
+                Intent i = new Intent(context,ExteriorSuperPremium.class);
                 context.startActivity(i);
             }
         }
@@ -64,7 +64,7 @@ public class RVAdapter_Painting extends RecyclerView.Adapter<RVAdapter_Painting.
 
     List<Card_Content> contents;
 
-    RVAdapter_Painting(List<Card_Content> contents){
+    RVAdapterExteriorPaint(List<Card_Content> contents){
         this.contents = contents;
     }
 

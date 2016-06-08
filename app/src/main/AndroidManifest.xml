@@ -57,6 +57,13 @@
             android:theme="@style/AppTheme.CustomTheme"/>
         <activity android:name=".PremiumRepaint"
             android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".ExteriorFreshPaint"/>
+        <activity android:name=".ExteriorEconomy"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".ExteriorPremium"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".ExteriorSuperPremium"
+            android:theme="@style/AppTheme.CustomTheme"/>
     </application>
 
 </manifest>
