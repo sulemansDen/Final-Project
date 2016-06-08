@@ -15,7 +15,7 @@ import java.util.List;
  * Created by suleman on 8/6/16.
  */
 
-public class InteriorRePainting extends AppCompatActivity {
+public class ExteriorRepaint extends AppCompatActivity {
     private List<Card_Content> persons;
     private RecyclerView rv;
     private TextView text;
@@ -27,7 +27,7 @@ public class InteriorRePainting extends AppCompatActivity {
         //setSupportActionBar(toolbar);
         text = (TextView) findViewById(R.id.textbox);
         text.setText("New Here? Get 10% OFF on your first service. Use coupon code WED10.");
-        getSupportActionBar().setTitle("Interior Re-Painting");
+        getSupportActionBar().setTitle("Exterior Re-Painting");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         rv = (RecyclerView) findViewById(R.id.rv);
 
@@ -42,11 +42,12 @@ public class InteriorRePainting extends AppCompatActivity {
         persons = new ArrayList<>();
         persons.add(new Card_Content("Economy", "", R.drawable.gray));
         persons.add(new Card_Content("Premium", "", R.drawable.gray));
+        persons.add(new Card_Content("Super Premium", "", R.drawable.gray));
 
     }
 
     private void initializeAdapter(){
-        RVAdapterRepainting adapter = new RVAdapterRepainting(persons);
+        RVAdapterExteriorRePaint adapter = new RVAdapterExteriorRePaint(persons);
         rv.setAdapter(adapter);
     }
     @Override
@@ -60,4 +61,3 @@ public class InteriorRePainting extends AppCompatActivity {
     }
 
 }
-

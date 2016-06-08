@@ -27,7 +27,7 @@ public class ExteriorFreshPaint extends AppCompatActivity {
         //setSupportActionBar(toolbar);
         text = (TextView) findViewById(R.id.textbox);
         text.setText("New Here? Get 10% OFF on your first service. Use coupon code WED10.");
-        getSupportActionBar().setTitle("Interior Fresh Painting");
+        getSupportActionBar().setTitle("Exterior Fresh Painting");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         rv = (RecyclerView) findViewById(R.id.rv);
 

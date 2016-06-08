@@ -64,6 +64,13 @@
             android:theme="@style/AppTheme.CustomTheme"/>
         <activity android:name=".ExteriorSuperPremium"
             android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".ExteriorRepaint"/>\
+        <activity android:name=".EconomyReExt"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".PremiumReExt"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".SuperPremiumReExt"
+            android:theme="@style/AppTheme.CustomTheme"/>
     </application>
 
 </manifest>
