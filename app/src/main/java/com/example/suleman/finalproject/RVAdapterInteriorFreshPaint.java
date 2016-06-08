@@ -17,10 +17,10 @@ import com.daimajia.androidanimations.library.YoYo;
 import java.util.List;
 
 /**
- * Created by suleman on 3/6/16.
+ * Created by suleman on 8/6/16.
  */
 
-public class RVAdapter_Painting extends RecyclerView.Adapter<RVAdapter_Painting.PersonViewHolder>  {
+public class RVAdapterInteriorFreshPaint extends RecyclerView.Adapter<RVAdapterInteriorFreshPaint.PersonViewHolder>  {
 
     public static class PersonViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
@@ -46,7 +46,7 @@ public class RVAdapter_Painting extends RecyclerView.Adapter<RVAdapter_Painting.
 
             if(position==0)
             {
-                Intent i = new Intent(context,InteriorFreshPaint.class);
+                Intent i = new Intent(context,Painting_Services.class);
                 context.startActivity(i);
             }
         }
@@ -54,7 +54,7 @@ public class RVAdapter_Painting extends RecyclerView.Adapter<RVAdapter_Painting.
 
     List<Card_Content> contents;
 
-    RVAdapter_Painting(List<Card_Content> contents){
+    RVAdapterInteriorFreshPaint(List<Card_Content> contents){
         this.contents = contents;
     }
 
