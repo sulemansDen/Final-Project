@@ -52,6 +52,11 @@
             android:theme="@style/AppTheme.CustomTheme"/>
         <activity android:name=".SuperPremiumFeatures"
             android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".InteriorRePainting"/>
+        <activity android:name=".EconomyRepaint"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".PremiumRepaint"
+            android:theme="@style/AppTheme.CustomTheme"/>
     </application>
 
 </manifest>

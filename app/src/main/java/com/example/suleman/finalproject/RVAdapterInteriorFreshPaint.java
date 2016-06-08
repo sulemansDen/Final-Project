@@ -42,7 +42,7 @@ public class RVAdapterInteriorFreshPaint extends RecyclerView.Adapter<RVAdapterI
         @Override
         public void onClick(View v) {
             int position = getAdapterPosition();
-            Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
+            //Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
 
             if(position==0)
             {

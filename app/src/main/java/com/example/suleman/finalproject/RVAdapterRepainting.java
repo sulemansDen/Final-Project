@@ -1,5 +1,9 @@
 package com.example.suleman.finalproject;
 
+/**
+ * Created by suleman on 8/6/16.
+ */
+
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.CardView;
@@ -16,11 +20,7 @@ import com.daimajia.androidanimations.library.YoYo;
 
 import java.util.List;
 
-/**
- * Created by suleman on 3/6/16.
- */
-
-public class RVAdapter_Painting extends RecyclerView.Adapter<RVAdapter_Painting.PersonViewHolder>  {
+public class RVAdapterRepainting extends RecyclerView.Adapter<RVAdapterRepainting.PersonViewHolder>  {
 
     public static class PersonViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
@@ -42,16 +42,16 @@ public class RVAdapter_Painting extends RecyclerView.Adapter<RVAdapter_Painting.
         @Override
         public void onClick(View v) {
             int position = getAdapterPosition();
-            Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
+            //Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
 
             if(position==0)
             {
-                Intent i = new Intent(context,InteriorFreshPaint.class);
+                Intent i = new Intent(context,EconomyRepaint.class);
                 context.startActivity(i);
             }
             if(position==1)
             {
-                Intent i = new Intent(context,InteriorRePainting.class);
+                Intent i = new Intent(context,PremiumRepaint.class);
                 context.startActivity(i);
             }
         }
@@ -59,7 +59,7 @@ public class RVAdapter_Painting extends RecyclerView.Adapter<RVAdapter_Painting.
 
     List<Card_Content> contents;
 
-    RVAdapter_Painting(List<Card_Content> contents){
+    RVAdapterRepainting(List<Card_Content> contents){
         this.contents = contents;
     }
 
