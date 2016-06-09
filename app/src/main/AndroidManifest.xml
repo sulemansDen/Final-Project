@@ -94,7 +94,8 @@
         <activity android:name=".LeaksnBlocks" />
         <activity android:name=".TapsnShowers" />
         <activity android:name=".ToiletFittings" />
-        <activity android:name=".Accesories"></activity>
+        <activity android:name=".Accesories" />
+        <activity android:name=".GeneralPlumbing"></activity>
     </application>
 
 </manifest>

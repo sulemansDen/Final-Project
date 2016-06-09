@@ -42,7 +42,7 @@ public class RVAdapter_Plumbing extends RecyclerView.Adapter<RVAdapter_Plumbing.
         @Override
         public void onClick(View v) {
             int position = getAdapterPosition();
-            Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
+            //Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
 
             if(position==0)
             {
@@ -61,7 +61,12 @@ public class RVAdapter_Plumbing extends RecyclerView.Adapter<RVAdapter_Plumbing.
             }
             if(position==3)
             {
-                Intent i = new Intent(context,Accesories    .class);
+                Intent i = new Intent(context,Accesories.class);
+                context.startActivity(i);
+            }
+            if(position==4)
+            {
+                Intent i = new Intent(context,GeneralPlumbing.class);
                 context.startActivity(i);
             }
         }
