@@ -46,36 +46,52 @@
         <activity android:name=".Ups" />
         <activity android:name=".GeneralElectrService" />
         <activity android:name=".InteriorFreshPaint" />
-        <activity android:name=".EconomyFeatures"
-            android:theme="@style/AppTheme.CustomTheme"></activity>
-        <activity android:name=".PrimiumFeatures"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".SuperPremiumFeatures"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".InteriorRePainting"/>
-        <activity android:name=".EconomyRepaint"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".PremiumRepaint"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".ExteriorFreshPaint"/>
-        <activity android:name=".ExteriorEconomy"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".ExteriorPremium"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".ExteriorSuperPremium"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".ExteriorRepaint"/>\
-        <activity android:name=".EconomyReExt"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".PremiumReExt"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".SuperPremiumReExt"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".WoodPolishing"/>'
-        <activity android:name=".InteriorWoodPolish"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".ExteriorWoodPolish"
-            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity
+            android:name=".EconomyFeatures"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PrimiumFeatures"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".SuperPremiumFeatures"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".InteriorRePainting" />
+        <activity
+            android:name=".EconomyRepaint"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PremiumRepaint"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".ExteriorFreshPaint" />
+        <activity
+            android:name=".ExteriorEconomy"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".ExteriorPremium"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".ExteriorSuperPremium"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".ExteriorRepaint" />
+        \
+        <activity
+            android:name=".EconomyReExt"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".PremiumReExt"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".SuperPremiumReExt"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".WoodPolishing" />
+        '
+        <activity
+            android:name=".InteriorWoodPolish"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".ExteriorWoodPolish"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".LeaksnBlocks"></activity>
     </application>
 
 </manifest>

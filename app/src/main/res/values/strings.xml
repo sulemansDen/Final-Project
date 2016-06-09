@@ -121,5 +121,13 @@
 
     <string name="feat59">\u2022 Min. visiting charges: Rs.300. Final Cost will be calculated after inspection</string>
 
+    <string name="feat60">\u2022 Charges are exclusive of materials. Free material procurement from stores
+    within 2 kms, above which a fixed cost of Rs. 25 is available</string>
+
+    <string name="feat61">\u2022 Materials when procured by Helpr will be charged at actuals and bill
+    will be provided from the hardware store</string>
+
+    <string name="feat62">\u2022 Note : We do not undertake Bathroom closet blockage, task that
+    require breaking down walls and drainage cleaning</string>
 
 </resources>
