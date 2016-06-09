@@ -93,7 +93,8 @@
             android:theme="@style/AppTheme.CustomTheme" />
         <activity android:name=".LeaksnBlocks" />
         <activity android:name=".TapsnShowers" />
-        <activity android:name=".ToiletFittings"></activity>
+        <activity android:name=".ToiletFittings" />
+        <activity android:name=".Accesories"></activity>
     </application>
 
 </manifest>

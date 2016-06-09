@@ -59,6 +59,11 @@ public class RVAdapter_Plumbing extends RecyclerView.Adapter<RVAdapter_Plumbing.
                 Intent i = new Intent(context,ToiletFittings.class);
                 context.startActivity(i);
             }
+            if(position==3)
+            {
+                Intent i = new Intent(context,Accesories    .class);
+                context.startActivity(i);
+            }
         }
     }
 
