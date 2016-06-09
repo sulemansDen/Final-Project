@@ -91,7 +91,8 @@
         <activity
             android:name=".ExteriorWoodPolish"
             android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".LeaksnBlocks"></activity>
+        <activity android:name=".LeaksnBlocks" />
+        <activity android:name=".TapsnShowers"></activity>
     </application>
 
 </manifest>
