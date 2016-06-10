@@ -56,15 +56,15 @@
         android:gravity="center"
         android:layout_margin="5dp"
         android:background="@drawable/rounded">
-        <Button
+        <ImageButton
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:text="min"
             android:id="@+id/minus"
             android:textColor="#808080"
-            android:background="@drawable/roundleft"
+            android:background="@android:drawable/ic_input_add"
             android:onClick="result">
-        </Button>
+        </ImageButton>
 
         <TextView
             android:layout_width="fill_parent"
@@ -76,15 +76,15 @@
             android:textStyle="bold"
             android:text="0 Window AC"/>
 
-        <Button
+        <ImageButton
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:text="Add"
             android:onClick="result"
             android:textColor="#808080"
             android:id="@+id/add"
-            android:background="@drawable/round">
-        </Button>
+            android:background="@android:drawable/ic_input_add">
+        </ImageButton>
     </LinearLayout>
 
     <LinearLayout
@@ -202,8 +202,7 @@
         android:textStyle="bold"
         android:textSize="15dp"
         android:textColor="@color/white"
-        android:background="#008e00"
-        />
+        android:background="#008e00" />
 
 </LinearLayout>
 
