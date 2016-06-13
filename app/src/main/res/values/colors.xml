@@ -8,4 +8,5 @@
     <color name="total_bg">#1E90FF</color>
     <color name="white">#FFF</color>
     <color name="textColor">#808080</color>
+    <color name="activity_bg">#DCDCDC</color>
 </resources>

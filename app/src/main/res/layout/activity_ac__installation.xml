@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.suleman.finalproject.AC_Installation"
     android:orientation="vertical"
-    android:background="#dbdbdb">
+    android:background="@color/activity_bg">
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -56,15 +56,15 @@
         android:gravity="center"
         android:layout_margin="5dp"
         android:background="@drawable/rounded">
-        <ImageButton
+        <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:text="min"
+
             android:id="@+id/minus"
             android:textColor="#808080"
             android:background="@android:drawable/ic_input_add"
             android:onClick="result">
-        </ImageButton>
+        </Button>
 
         <TextView
             android:layout_width="fill_parent"
@@ -76,15 +76,14 @@
             android:textStyle="bold"
             android:text="0 Window AC"/>
 
-        <ImageButton
+        <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:text="Add"
             android:onClick="result"
             android:textColor="#808080"
             android:id="@+id/add"
             android:background="@android:drawable/ic_input_add">
-        </ImageButton>
+        </Button>
     </LinearLayout>
 
     <LinearLayout
@@ -98,9 +97,8 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:textColor="#808080"
-            android:text="min"
             android:id="@+id/minusSplit"
-            android:background="@drawable/roundleft"
+            android:background="@android:drawable/ic_input_add"
             android:onClick="result">
         </Button>
 
@@ -117,11 +115,10 @@
         <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:text="Add"
             android:onClick="result"
             android:textColor="#808080"
             android:id="@+id/addSplit"
-            android:background="@drawable/round">
+            android:background="@android:drawable/ic_input_add">
         </Button>
     </LinearLayout>
 

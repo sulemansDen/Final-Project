@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.suleman.finalproject.LeaksnBlocks"
     android:orientation="vertical"
-    android:background="#dbdbdb">
+    android:background="@color/activity_bg">
 
     <LinearLayout
         android:layout_width="match_parent"
