@@ -1,10 +1,13 @@
 package com.example.suleman.finalproject;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -25,6 +28,13 @@ TextView txt1,txt2,txt3;
         int width =dm.widthPixels;
         int height = dm.heightPixels;
         getWindow().setLayout((int) (width * .9), (int) (height * .5));
+
+    }
+    public void submit(View v)
+    {
+
+            Intent i =new Intent(this,Address.class);
+            startActivity(i);
 
     }
 }

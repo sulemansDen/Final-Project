@@ -1,11 +1,13 @@
 package com.example.suleman.finalproject;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Fridge_Gas_Charging extends AppCompatActivity {
     int total = 0,countDirect=0,countFrost=0;
@@ -59,7 +61,18 @@ public class Fridge_Gas_Charging extends AppCompatActivity {
 
     }
 
-
+    public void submit(View v)
+    {
+        if(total == 0)
+        {
+            Toast.makeText(getApplicationContext(),"Please Select The Quantity",Toast.LENGTH_SHORT).show();
+        }
+        else
+        {
+            Intent i =new Intent(this,Address.class);
+            startActivity(i);
+        }
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(android.R.id.home == item.getItemId())

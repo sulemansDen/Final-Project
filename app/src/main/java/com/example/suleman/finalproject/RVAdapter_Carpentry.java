@@ -44,13 +44,9 @@ public class RVAdapter_Carpentry extends RecyclerView.Adapter<RVAdapter_Carpentr
         @Override
         public void onClick(View v) {
             int position = getAdapterPosition();
-            Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
-
-            if(position==0)
-            {
-                Intent i = new Intent(context,Carpentry_Services.class);
+            //Toast.makeText(context," " + position,Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(context,Address.class);
                 context.startActivity(i);
-            }
         }
     }
 

@@ -1,8 +1,10 @@
 package com.example.suleman.finalproject;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.View;
 import android.widget.TextView;
 
 /**
@@ -26,6 +28,13 @@ public class PremiumRepaint extends Activity {
         int width =dm.widthPixels;
         int height = dm.heightPixels;
         getWindow().setLayout((int) (width * .9), (int) (height * .5));
+
+    }
+    public void submit(View v)
+    {
+
+        Intent i =new Intent(this,Address.class);
+        startActivity(i);
 
     }
 }

@@ -1,10 +1,12 @@
 package com.example.suleman.finalproject;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Fans extends AppCompatActivity {
     TextView disp;
@@ -269,6 +271,22 @@ public class Fans extends AppCompatActivity {
         }
 
     }
+
+    public void submit(View v)
+    {
+        if(total == 0)
+        {
+            Toast.makeText(getApplicationContext(),"Please Select The Quantity",Toast.LENGTH_SHORT).show();
+        }
+        else
+        {
+            Intent i =new Intent(this,Address.class);
+            startActivity(i);
+        }
+    }
+
+
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(android.R.id.home == item.getItemId())
